@@ -2,7 +2,7 @@ body{
   padding: 100px;
 }
 
-#submit-area{
+.submit-area{
   border-radius: 10px;
   margin-top: 50px;
   box-shadow: 5px 5px 10px gray;
@@ -11,4 +11,20 @@ body{
 
 #transectionArea{
   display: none;
+}
+
+.status{
+  margin: 0 20px; 
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.deposite {
+  background-color: slateblue;
+}
+.withdraw{
+  background-color: lightsalmon;
+}
+.balance{
+  background-color: orange;
 }
